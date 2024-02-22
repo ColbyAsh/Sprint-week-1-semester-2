@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order - Gary Blue's Diner</title>
+    <link rel="stylesheet" href="GBStyleSheet.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="GBMain.html">Home</a></li>
+                <li><a href="GBMenu.html">Menu</a></li>
+                <li><a href="GBOrder.html">Order</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="order">
+        <h2>Place Your Order</h2>
+        <form id="order-form">
+            <!-- Big Gary Chicken Sandwich -->
+            <label for="big-gary-chicken-sandwich">Big Gary Chicken Sandwich</label>
+            <input type="number" id="big-gary-chicken-sandwich" name="big-gary-chicken-sandwich" min="0" value="0"><br>
+            
+            <!-- Taters -->
+            <label for="taters">Taters</label>
+            <input type="number" id="taters" name="taters" min="0" value="0"><br>
+            
+            <!-- Fries -->
+            <label for="fries">Fries</label>
+            <input type="number" id="fries" name="fries" min="0" value="0"><br>
+            
+            <!-- Soup -->
+            <label for="soup">Soup</label>
+            <input type="number" id="soup" name="soup" min="0" value="0"><br>
+            
+            <!-- Eggs and Bacon -->
+            <label for="eggs-and-bacon">Eggs and Bacon</label>
+            <input type="number" id="eggs-and-bacon" name="eggs-and-bacon" min="0" value="0"><br>
+            
+            <!-- Toasted Breakfast Sandwich -->
+            <label for="toasted-breakfast-sandwich">Toasted Breakfast Sandwich</label>
+            <input type="number" id="toasted-breakfast-sandwich" name="toasted-breakfast-sandwich" min="0" value="0"><br>
+            
+            <!-- Gravy -->
+            <label for="gravy">Gravy</label>
+            <input type="number" id="gravy" name="gravy" min="0" value="0"><br>
+            
+            <button type="submit">Place Order</button>
+        </form>
+        <div id="confirmation" style="display: none;">
+            <p>Thank you for your order!</p>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="GBMain.html">Home</a></li>
+                <li><a href="GBMenu.html">Menu</a></li>
+                <li><a href="GBOrder.html">Order</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
